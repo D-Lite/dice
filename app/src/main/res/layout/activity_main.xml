@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/firstContainer"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DICEY"
+            android:layout_marginTop="150dp"
+            android:textColor="#04232A"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textStyle="italic"
+        />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+        />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#000000"
+            android:clickable="true"
+            android:text="Continue"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:id="@+id/newlogin"
+            android:layout_marginBottom="100dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App developed by Daniel"
+        android:gravity="center"
+        android:textColor="#888"
+        android:textSize="20dp"
+        android:id="@+id/developer"
+        />
+
+</RelativeLayout>
